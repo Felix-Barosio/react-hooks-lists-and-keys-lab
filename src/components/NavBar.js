@@ -9,6 +9,11 @@ function NavBar() {
   console.log(navigation);
 
   return <nav>{navigation}</nav>;
+  // return <nav>
+  //   <a href="#home">home</a>
+  //   <a href="#about">about</a>
+  //   <a href="#projects">projects</a>
+  // </nav>;
 }
 
 export default NavBar;
